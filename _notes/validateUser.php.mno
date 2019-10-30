@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_LiveData_params" value="2" />
+	<infoitem key="UD_LiveData_param0" value="user_pass=123456&amp;user_pass2=12345&amp;user_email=haitham.ghalwash@hotmail.com" />
+	<infoitem key="UD_LiveData_request_method" value="post" />
+	<infoitem key="UD_LiveData_param1" value="user_pass1=12345&amp;user_pass2=12345&amp;user_email=h.ghalwash@gmail.com" />
+</info>
