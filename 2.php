@@ -21,27 +21,7 @@ echo $row['username'] . '<br>';
 }
 
 
-/*$link = mysql_connect('localhost:3306', 'haitham', 'SrHr5mjR9Cy9baqf');
-$sql = "SELECT * FROM 'login'";
-//if (!	) {
-//    echo 'Could not connect to mysql';
- //   exit;
-//}
-if (!mysql_select_db('e-mail', $link)) {
-    echo 'Could not select database';
-    exit;
-}
-$sql = "SELECT * FROM 'login'";
-$result = mysql_query($sql, $link);
-if (!$result) {
-    echo "DB Error, could not query the database\n";
-    echo 'MySQL Error: ' . mysql_error();
-    exit;
-}
-while ($row = mysql_fetch_assoc($result)) {
-    echo $row['*'];
-}
-mysql_free_result($result);*/
+
 
 ?>
 </html>

@@ -35,12 +35,7 @@ if($Find_result == false) {
   trigger_error('Wrong SQL: ' . $sql . ' Error: ' . $conn->error, E_USER_ERROR);
   exit;
 }
-//if($Find_result->num_rows == 0) {
-    // User not found. So, redirect to login_form again.
-   //header('Location: changepassword.php');
-  // $Message= "Invalid Credentials";
-  //}	
-// put the whole record in an array
+
 	$row = $Find_result->fetch_assoc();
 		if($row["userName"]==$email && $row["password"]==$passOld){
 			$flag= true;
